@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energi input submit</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <button>
+                    <a href="Level-submit.html">Energi input</a>
+                </button>
+            </li>
+            <li>
+                <div>
+                    <img src="Imgs/aspit_logo.png" alt="aspit logo">
+                </div>
+            </li>
+            <li>
+                <button>
+                    <a href="Index.html">Home</a>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="input-container">
+        <form action="/submit-energy" method="POST">
+            <label for="energy-usage">Enter din energi procent (0-100):</label>
+            <input type="number" id="energi%" name="energi%" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
