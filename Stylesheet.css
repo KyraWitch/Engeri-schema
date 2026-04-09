@@ -344,13 +344,19 @@ nav {
 /* Testing */
 
 .testouter{
-    position: relative;
+    /*position: relative;*/
+
+    /*Remove later*/
+    position: absolute;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 60%;
-    height: 20vh;
-    top: 35vh;
+    /*width: 60%;
+    height: 20vh;*/
+    height: 25vh;
+    width: 70vw;
+    top: 43vh;
+    /*top: 35vh;*/
     justify-self: center;
     border: black 2px solid;
     border-radius: 200px;
